@@ -27,6 +27,9 @@ ms.custom: seodec18
 * Key Benefits
 ## What is MLOps?
 
+* Introduction
+* Picture of ExpDevOps lifecycle
+
 ### Overview of practices
 * [Software Configuration Management](mlops-scm)
 * [Infrastructure- and Configurations as code](mlops-iac-cac.md)
@@ -36,12 +39,11 @@ ms.custom: seodec18
 * [Application Performance Monitoring](mlops-apm.md)
 * [Feedback Loop and Continuous Learning](mlops-feedback.md)
 
-### ExpDevOps Lifecycle
+### AI Solution Lifecycle
 * Picture of ExpDevOps lifecycle
 
 ### MLOps within TDSP
-* Positioning MLOps practices as part of TDSP phases
-* Picture of ExpDevOps lifecycle
+* Positioning MLOps practices as part of the TDSP lifecycle
 
 ## Further Learning
 * [What is DevOps?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops)
