@@ -21,3 +21,6 @@ This does help you in three main ways: *1) it supports your model selection proc
 Say you are in an early phase of your data science project, and you find yourself in a situation where you have the impression that the model you came up with a few hours ago, or rather a week ago was actually performing better that what you have now... can you then reproduce that partical experiment?
 
 Reproducability for models, and later AI Solutions, would require you to keep track of what *code* and what *data* was used to lead to a certain *outcome* e.g. a model. Hence, creating a code and data snapshot with each run of your experiment is an important practice. Beyond just code and data, additional tracking of the environment configuration (e.g. package versions) would enable you to reproduce similar results. In pipeline scenarios, where you may be passing in- and output datasets to different steps, this would also mean to version those artifacts.
+
+> [!TIP]
+> The [Azure Machine Learning service]() provides experiment tracking capabilities to help you implement this DevOps practice. The service enables you to run an experiment either locally or remotely, use the logging APIs to record different metrics, or upload files with your run such as input/output datasets or trained model. 

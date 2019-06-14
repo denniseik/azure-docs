@@ -14,8 +14,20 @@ ms.custom: seodec18
 ---
 # MLOps (DevOps practices)
 
-* Describe need
+## Why DevOps?
+
+DevOps for Machine Learning or also known as DevOps for AI Solutions. 
+
 * Academic start of an experiment to result in industrialized application
+* Challenges
+* Benefits
+* Key practices
+
+## AI Solution DevOps Lifecycle
 * Picture of ExpDevOps lifecycle
+
+## DevOps and TDSP
 * Mapping TDSP phases to ExpDevOps lifecyle
+* Picture of ExpDevOps lifecycle
+
 

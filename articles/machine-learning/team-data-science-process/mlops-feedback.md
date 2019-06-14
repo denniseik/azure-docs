@@ -1,6 +1,6 @@
 ---
 title: MLOps (DevOps practices)
-description: An ove
+description: An overview of DevOps practices for AI solutions
 services: machine-learning
 author: denniseik
 manager: cgronlun
