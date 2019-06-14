@@ -14,21 +14,35 @@ ms.custom: seodec18
 ---
 # MLOps (DevOps practices)
 
-## Why DevOps?
+*Introduction*
 
-DevOps for Machine Learning or also known as DevOps for AI Solutions. 
-
+## Why MLOps?
+* Data Science Challenges
 * Academic start of an experiment to result in industrialized application
-* Challenges
-* Benefits
-* Key practices
+* Clarify terminology MLOps/DevOps for ML/AI DevOps. 
 
-## AI Solution DevOps Lifecycle
+>[!TIP]
+> Are you new to DevOps? Refer to the resources under 'Further Learning' for a general introduction to DevOps. 
+
+* Key Benefits
+## What is MLOps?
+
+### Overview of practices
+* [Software Configuration Management](mlops-scm)
+* [Infrastructure- and Configurations as code](mlops-iac-cac.md)
+* [Experiment Tracking](mlops-tracking.md)
+* [Testing AI Solutions](mlops-testing.md)
+* [ML Model CI/CD](mlops-cicd.md)
+* [Application Performance Monitoring](mlops-apm.md)
+* [Feedback Loop and Continuous Learning](mlops-feedback.md)
+
+### ExpDevOps Lifecycle
 * Picture of ExpDevOps lifecycle
 
-## DevOps and TDSP
-* Mapping TDSP phases to ExpDevOps lifecyle
+### MLOps within TDSP
+* Positioning MLOps practices as part of TDSP phases
 * Picture of ExpDevOps lifecycle
 
 ## Further Learning
+* [What is DevOps?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops)
 * [What is DevOps culture?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture)
