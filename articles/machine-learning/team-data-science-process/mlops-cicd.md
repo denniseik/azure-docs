@@ -37,3 +37,6 @@ Without Continuous Delivery, software release cycles were previously a bottlenec
 
 Continuous Delivery is frequently a challenge for data science teams. The step of model deployment requires typically more of a dev/infra background when compared to other steps in the data science lifecycle. This is causing teams that are skewed to the analytical side in terms of their skill set, to rely on traditional SDE teams for model deployment. By owning the complete delivery process as a team, the data team can break out of their isolation, increase agility and reduce refactoring efforts.
 
+## Further Learning
+* [What is Continuous Integration?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-continuous-integration)
+* [What is Continuous Delivery?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-continuous-delivery)

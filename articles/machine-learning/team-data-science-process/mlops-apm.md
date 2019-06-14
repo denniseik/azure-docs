@@ -32,3 +32,6 @@ On a high-level we can distinguish different types of monitoring to think about:
   * Log new model in- and outputs, model version
   * Version dataset and codebase that led to model artifact.
   * Version and log data pipeline execution that led to model input
+
+## Further Learning
+* [What is Monitoring?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-monitoring)

@@ -30,4 +30,5 @@ DevOps for Machine Learning or also known as DevOps for AI Solutions.
 * Mapping TDSP phases to ExpDevOps lifecyle
 * Picture of ExpDevOps lifecycle
 
-
+## Further Learning
+* [What is DevOps culture?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture)
