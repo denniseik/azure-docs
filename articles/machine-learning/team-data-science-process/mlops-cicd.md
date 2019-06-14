@@ -28,3 +28,9 @@ Continuous Delivery (CD) is the process to build, test, configure and deploy fro
 Without Continuous Delivery, software release cycles were previously a bottleneck for application and operation teams. Manual processes led to unreliable releases that produced delays and errors. These teams often relied on handoffs that resulted in issues during release cycles. The automated release pipeline allows a “fail fast” approach to validation, where the tests most likely to fail quickly are run first and longer-running tests happen after the faster ones complete successfully. Issues found in production can be remediated quickly by rolling forward with a new deployment. In this way, continuous delivery creates a continuous stream of customer value.
 
 Continuous Delivery is frequently a challenge for data science teams. The step of model deployment requires typically more of a dev/infra background when compared to other steps in the data science lifecycle. This is causing teams that are skewed to the analytical side in terms of their skill set, to rely on traditional SDE teams for model deployment. By owning the complete delivery process as a team, the data team can break out of their isolation, increase agility and reduce refactoring efforts.
+
+## Pipeline types
+
+* Data Pipelines
+* ML Pipelines
+* DevOps Pipelines

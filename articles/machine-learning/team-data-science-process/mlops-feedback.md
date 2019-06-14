@@ -12,4 +12,4 @@ ms.date: 14/06/2019
 ms.author: tdsp
 ms.custom: seodec18
 ---
-# Feedback Loop and Continous Learning
+# Feedback Loop and Continuous Learning

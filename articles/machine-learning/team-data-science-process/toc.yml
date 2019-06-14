@@ -28,6 +28,24 @@
     href: project-ic-tasks.md
 - name: Project planning
   href: team-data-science-process-project-templates.md
+- name: MLOps (DevOps practices)
+  items:
+  - name: MLOps Overview
+    href: mlops-overview.md
+  - name: Infrastructure- and Configurations as code
+    href: mlops-iac-cac.md
+  - name: Software Configuration Management
+    href: mlops-scm.md
+  - name: Experiment Tracking
+    href: mlops-tracking.md
+  - name: Testing AI Solutions
+    href: mlops-testing.md
+  - name: ML Model CI/CD
+    href: mlops-cicd.md
+  - name: Application Performance Monitoring
+    href: mlops-apm.md
+  - name: Feedback Loop and Continuous Learning
+    href: mlops-feedback.md
 - name: Development
   items:
   - name: Agile development
