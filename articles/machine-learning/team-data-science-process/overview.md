@@ -24,7 +24,6 @@ TDSP comprises of the following key components:
 
 - A **data science lifecycle** definition
 - A **standardized project structure**
-- **Infrastructure and resources** for data science projects
 - **Tools and utilities** for project execution
 
 
@@ -53,10 +52,12 @@ The goals, tasks, and documentation artifacts for each stage of the lifecycle in
 - Solution architect
 - Project manager
 - Data scientist
+- Data engineer
 - Project lead 
 
 The following diagram provides a grid view of the tasks (in blue) and artifacts (in green) associated with each stage of the lifecycle (on the horizontal axis) for these roles (on the vertical axis). 
 
+[comment]: # (TODO: Update ./media/overview/tdsp-tasks-by-roles.png to include Data Engineer as well and pull out data engineering tasks from Data Scientist to Data Engineer)
 [![TDSP-roles-and-tasks](./media/overview/tdsp-tasks-by-roles.png)](./media/overview/tdsp-tasks-by-roles.png#lightbox)
 
 ## Standardized project structure
@@ -65,30 +66,16 @@ Having all projects share a directory structure and use templates for project do
 
 We provide templates for the folder structure and required documents in standard locations. This folder structure organizes the files that contain code for data exploration and feature extraction, and that record model iterations. These templates make it easier for team members to understand work done by others and to add new members to teams. It is easy to view and update document templates in markdown format. Use templates to provide checklists with key questions for each project to insure that the problem is well-defined and that deliverables meet the quality expected. Examples include:
 
-- a project charter to document the business problem and scope of the project
-- data reports to document the structure and statistics of the raw data
-- model reports to document the derived features
-- model performance metrics such as ROC curves or MSE
+- a project charter to document the business problem, the scope of the project and key business metrics / KPIs
+- data reports to document the structure, statistics and analysis performed on the raw data
+- model reports to document the derived features and model training experiments
+- model performance report documenting the key performance metrics such as accuracy, precision, recall, MSE, etc. and key business metrics
+- model understanding report interpreting what the model has learnt 
 
-
+[comment]: # (TODO: Update ./media/overview/tdsp-dir-structure.png and the Azure-TDSP-ProjectTemplate)
 [![TDSP-directories](./media/overview/tdsp-dir-structure.png)](./media/overview/tdsp-dir-structure.png#lightbox)
 
 The directory structure can be cloned from [GitHub](https://github.com/Azure/Azure-TDSP-ProjectTemplate).
-
-## Infrastructure and resources for data science projects  
-
-TDSP provides recommendations for managing shared analytics and storage infrastructure such as:
-
-- cloud file systems for storing datasets 
-- databases
-- big data (Hadoop or Spark) clusters 
-- machine learning service 
-
-The analytics and storage infrastructure can be in the cloud or on-premises. This is where raw and processed datasets are stored. This infrastructure enables reproducible analysis. It also avoids duplication, which can lead to inconsistencies and unnecessary infrastructure costs. Tools are provided to provision the shared resources, track them, and allow each team member to connect to those resources securely. It is also a good practice to have project members create a consistent compute environment. Different team members can then replicate and validate experiments.
-
-Here is an example of a team working on multiple projects and sharing various cloud analytics infrastructure components.
-
-[![TDSP-infrastructure](./media/overview/tdsp-analytics-infra.png)](./media/overview/tdsp-analytics-infra.png#lightbox) 
 
 
 ## Tools and utilities for project execution
