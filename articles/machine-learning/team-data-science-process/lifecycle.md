@@ -30,6 +30,7 @@ The TDSP lifecycle is composed of five major stages that are executed iterativel
 
 Here is a visual representation of the TDSP lifecycle: 
 
+[comment]: # (TODO: Update ./media/lifecycle/tdsp-lifecycle2.png and include Model Understanding in Modeling stage. This includes applying interpretability techniques like feature importance, partial dependence, feature interaction, LIME, SHAP, etc.)
 ![TDSP lifecycle](./media/lifecycle/tdsp-lifecycle2.png) 
 
 
