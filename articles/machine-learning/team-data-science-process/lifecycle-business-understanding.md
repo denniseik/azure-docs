@@ -35,6 +35,7 @@ Here is a visual representation of the TDSP lifecycle:
 There are two main tasks addressed in this stage: 
 
    * **Define objectives**: Work with your customer and other stakeholders to understand and identify the business problems. Formulate questions that define the business goals that the data science techniques can target.
+   * **Define key business metrics**: Define key business metrics and KPIs to determine the success of the project.
    * **Identify data sources**: Find the relevant data that helps you answer the questions that define the objectives of the project.
 
 ### Define objectives
@@ -52,13 +53,16 @@ There are two main tasks addressed in this stage:
 
 3. Define the project team by specifying the roles and responsibilities of its members. Develop a high-level milestone plan that you iterate on as you discover more information. 
 
-4. Define the success metrics. For example, you might want to achieve a customer churn prediction. You need an accuracy rate of "x" percent by the end of this three-month project. With this data, you can offer customer promotions to reduce churn. The metrics must be **SMART**: 
+### Define key business metrics
+1. Define the performance metrics for the models being built. For example, you might want to achieve a customer churn prediction. You need an accuracy rate of "x" percent by the end of this three-month project. With this data, you can offer customer promotions to reduce churn. The metrics must be **SMART**: 
 
    * **S**pecific 
    * **M**easurable
    * **A**chievable 
    * **R**elevant 
    * **T**ime-bound 
+
+2. Define key business metrics and KPIs to measure the value of the models being built for the business stakeholders. For example, this could be "x" percent of cases that can be automated by the model or the cost/value of false positives, false negatives, true positives and true negatives in a classification task. The model performance metrics defined above should be translatable to these business metrics.
 
 ### Identify data sources
 Identify data sources that contain known examples of answers to your sharp questions. Look for the following data:
