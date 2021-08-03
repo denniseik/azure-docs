@@ -12,8 +12,7 @@ ms.topic: how-to
 ms.custom: devx-track-azurecli
 ---
 
-# Create a workspace for Azure Machine Learning with Azure CLI
-
+# Create Azure Machine Learning workspaces using Azure CLI
 
 In this article, you learn how to create an Azure Machine Learning workspace using the Azure CLI. The Azure CLI provides commands for managing Azure resources. The machine learning extension to the CLI provides commands for working with Azure Machine Learning resources.
 
